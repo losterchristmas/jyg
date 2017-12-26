@@ -1,85 +1,71 @@
-.public-center
-{
-    right: 0;
-    left: 0;
-    margin: auto;
-}
-.header
-{
-    width: 500px;
-    height: 200px;
-    left: 0;
-    right: 0;
-    margin: auto;
-}
-nav
-{
-    width: 100%;
-    height: 500px;
-}
-.header-center
-{
-    width: 560px;
-    height: 140px;
-    right: 0;
-    left: 0;
-    margin: auto;
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <script type="text/javascript" src="jquery-1.11.3.min.js"></script>
+    <link rel="stylesheet" href="demo1-main.css">
+    <link rel="stylesheet" href="normalize.css">
+    <title></title>
+    <script>
+            $(document).ready(function(){
+                $(".img1").mouseover(function(){
+                    $(".img-a1").fadeIn(500);
+                })
+                $(".img2").mouseover(function(){
+                    $(".img-a2").fadeIn(500);
+                })
+                $(".img3").mouseover(function(){
+                    $(".img-a3").fadeIn(500);
+                })
+                $(".img4").mouseover(function(){
+                    $(".img-a4").fadeIn(500);
+                })
 
-}
-.program
-{
-    float: left;
-    width: 100px;
-    height: 100px;
-    text-align: center;
-    line-height: 100px;
-    border-radius: 50px;
-    margin:20px;
-    position: relative;
-    -webkit-animation:mytest 1s linear 1s infinite alternate;
-}
-@-webkit-keyframes mytest
-{
-    0%{background:transparent;left:0px;top:0px}
-    100%{background:transparent;left:0px;top:-50px}
-}
-.program img
-{
-    border-radius: 40px;
-}
-.program a
-{
-    position: absolute;
-    font-size: 25px;
-    transform: translate(0px,100px);
-    text-decoration: none;
-    display: none;
-    color: #fff;
-    line-height: 20px;
-    top:-55px;
-    left: 40px;
-}
-.nav-introduce
-{
-    padding: 50px;
-    width: 1020px;
-    height: 250px;
-    right: 0;
-    left: 0;
-    margin: auto;
-}
-.public-footer
-{
-    padding-top: 10px;
-    padding-bottom:10px; 
-    width: 100%;
-    max-height: 300px;
-    background: rgb(53, 53, 53);
-}
-.public-footer p
-{
-    color: #fff;
-    margin-left: 75%;
-    letter-spacing: 2px;
-}
+            })
+        </script>
+</head>
+<body>
+   <header>
+       <div class="header">
+           <img src="logo.png" alt="" width="500px" height="200px">
+       </div>
+   </header>
+   <nav>
+       <div class="header-center">
+    <div class="program">
+        <a class="img-a1" href="#">琴</a>
+        <img class="img1" src="琴.jpg" alt="" width="100px" height="100px">
+        
+    </div>
+    <div class="program">
+            <a class="img-a2" href="#">棋</a>
+            <img class="img2" src="棋.jpg" alt="" width="100px" height="100px">
+        </div>
+        <div class="program">
+                <a class="img-a3" href="#">书</a>
+                <img class="img3" src="书.jpg" alt="" width="100px" height="100px">
+            </div>
+            <div class="program">
+                    <a class="img-a4" href="#">画</a>
+                    <img class="img4" src="画.jpg" alt=""width="100px" height="100px">
 
+                </div>
+            </div>
+    <div class="nav-introduce">
+        <img src="聚雅缘1.jpg" alt="" height="250px" width="200px">
+        <img src="聚雅缘5.jpg" alt="" height="250px" width="200px">
+        <img src="聚雅缘3.jpg" alt="" height="250px" width="200px">
+        <img src="聚雅缘4.jpg" alt="" height="250px" width="200px">
+        <img src="聚雅缘2.jpg" alt="" height="250px" width="200px">
+    </div>
+   </nav>
+   <footer>
+    <div class="public-footer">
+
+        <p>电话：0760-85333219</p>
+        <p>地址：中山市东区柏苑路183号</p>
+        <p>（市青少年宫与柏苑壹加壹之间）</p>
+    </div>
+   </footer>
+</body>
+</html>
