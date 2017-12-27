@@ -65,20 +65,22 @@ nav
     background: transparent;
     padding: 50px;
     width: 1020px;
-    height: 800px;
+    height: 1500px;
     right: 0;
     left: 0;
     margin: auto;
+    /* border: 1px solid red; */
 
 }
 .neirong
 {
     background: transparent;
     width: 1000px;
-    height: 550px;
+    height: 560px;
     right: 0;
     left: 0;
     margin: auto;
+    /* border: 1px solid red; */
 
 }
 .neirong1
@@ -89,7 +91,6 @@ nav
     height: 430px;
     float: left;
     margin-left:15px; 
-
     padding: 20px;
 }
 .neirong1 h3
@@ -100,7 +101,20 @@ nav
 {
     letter-spacing: 2px;
 }
+.neirong2
+{
+    right: 0;
+    left: 0;
+    margin: auto;
+    /* border: 1px solid red; */
+    width: 1000px;
+    height: 300px;
+}
 
+.neirong2 img
+{
+    padding-left: 5px;
+}
 .public-footer
 {
     padding-top: 10px;
